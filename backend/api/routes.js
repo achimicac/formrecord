@@ -5,7 +5,7 @@ import { csvAdding } from "../controllers/csvAdding.js";
 
 const router = express.Router();
 
-router.post('/record', csvAdding)
+router.post('/addrecord', csvAdding)
 router.get('/record', csvExport)
 
 export default router;
